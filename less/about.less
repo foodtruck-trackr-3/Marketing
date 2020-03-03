@@ -30,7 +30,6 @@ main {
   }
   .aboutName {
     border-radius: 1rem;
-    // border:1px solid @midGray;
     box-shadow: 0 0.5rem 0.5rem 0.2rem @midGray;
     margin-bottom: 2rem;
     @media @tablet {
@@ -46,6 +45,18 @@ main {
       font-weight: bold;
       margin-bottom: 0.5rem;
       background: @primaryYellow;
+      padding: 0;
+      .flex();
+      align-items: center;
+      justify-content: start;
+    }
+    .avatar {
+      width: 6rem;
+      height: 5rem;
+      object-fit: cover;
+      margin: 0;
+      margin-right: 0.5rem;
+      border-radius: 1rem 0 0 0;
     }
   }
 }

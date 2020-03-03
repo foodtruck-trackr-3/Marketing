@@ -328,4 +328,18 @@ main .aboutName :first-child {
   font-weight: bold;
   margin-bottom: 0.5rem;
   background: #f6bd31;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: start;
+}
+main .aboutName .avatar {
+  width: 6rem;
+  height: 5rem;
+  object-fit: cover;
+  margin: 0;
+  margin-right: 0.5rem;
+  border-radius: 1rem 0 0 0;
 }
