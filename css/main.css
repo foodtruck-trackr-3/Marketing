@@ -149,7 +149,7 @@ body {
 }
 @media screen and (min-width:801px) {
   .container {
-    width: 50%;
+    width: 60%;
   }
 }
 .nav {
@@ -166,6 +166,7 @@ body {
 }
 @media screen and (min-width:501px) {
   .nav {
+    margin: 0;
     align-items: flex-end;
   }
 }
@@ -178,7 +179,7 @@ body {
 }
 @media screen and (min-width:501px) {
   .nav div {
-    min-width: 72%;
+    min-width: 74%;
     flex-wrap: nowrap;
     justify-content: space-evenly;
   }
@@ -225,23 +226,8 @@ footer {
   width: 100%;
   padding: 1rem;
 }
-html {
-  font-size: 62.5%;
-}
-body {
-  font-size: 16px;
-  font-family: "Poppins";
-}
-.container {
-  width: 70%;
-  margin: 0 auto;
-}
-@media screen and (min-width:801px) {
-  .container {
-    width: 50%;
-  }
-}
 main {
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -268,29 +254,23 @@ main .card img {
 }
 @media screen and (min-width:501px) {
   main .card img {
-    width: 25rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem;
   }
+}
+@media screen and (min-width:801px) {
 }
 main .card p {
   font-size: 2rem;
   margin-top: 1rem;
+  padding: 0;
+  width: 100%;
+  text-align: center;
 }
-html {
-  font-size: 62.5%;
-}
-body {
-  font-size: 16px;
-  font-family: "Poppins";
-}
-.container {
-  width: 70%;
-  margin: 0 auto;
-}
-@media screen and (min-width:801px) {
-  .container {
-    width: 50%;
-  }
+main > p {
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 main {
   display: flex;
@@ -315,7 +295,7 @@ main .aboutName {
 }
 @media screen and (min-width:501px) {
   main .aboutName {
-    width: 17%;
+    width: 42%;
     margin: 1rem;
   }
 }

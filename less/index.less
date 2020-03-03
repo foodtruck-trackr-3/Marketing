@@ -1,19 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-html {
-  font-size: 62.5%;
-}
-body {
-  font-size: 16px;
-  font-family: "Poppins";
-}
-.container {
-  width: 70%;
-  margin: 0 auto;
-  @media @desktop {
-    width: 50%;
-  }
-}
 main {
+  margin: 0;
   .flex();
   justify-content: space-evenly;
   .card {
@@ -33,13 +19,25 @@ main {
       height: 25rem;
       object-fit: cover;
       @media @tablet {
-        width: 25rem;
-        height: 25rem;
+        width: 20rem;
+        height: 20rem;
+      }
+      @media @desktop {
+        // width: 25rem;
+        // height: 25rem;
       }
     }
     p {
       font-size: 2rem;
       margin-top: 1rem;
+      padding: 0;
+      width: 100%;
+      text-align: center;
     }
+  }
+  > p {
+    display: block;
+    width: 100%;
+    text-align: center;
   }
 }
