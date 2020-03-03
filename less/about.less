@@ -25,14 +25,23 @@ main {
     font-size: 3rem;
     margin: 1rem 0;
   }
+  p {
+    text-indent: 2rem;
+  }
   .aboutName {
-    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 0.5rem 0.2rem @midGray;
+    margin-bottom: 2rem;
     @media @tablet {
-      width: 65%;
+      width: 17%;
+      margin: 1rem;
+    }
+    p {
+      padding: 1rem;
     }
     :first-child {
+      border-radius: 1rem 1rem 0 0;
       font-weight: bold;
-      padding: 0.5rem;
       margin-bottom: 0.5rem;
       background: @midGray;
     }
