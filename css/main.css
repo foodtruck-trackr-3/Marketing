@@ -147,7 +147,7 @@ body {
   width: 70%;
   margin: 0 auto;
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:1000px) {
   .container {
     width: 60%;
   }
@@ -258,7 +258,7 @@ main .card img {
     height: 20rem;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:1000px) {
 }
 main .card p {
   font-size: 2rem;
